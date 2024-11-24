@@ -12,6 +12,7 @@ var dd=today.getDate();
 var mm=(today.getMonth()+1);
 var yyyy=today.getFullYear();
 
+//Days
 var days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 var currentDay = new Date();
 var dayName = days[currentDay.getDay()];
